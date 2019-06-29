@@ -6,6 +6,8 @@
 5. Chequear que tenga valores la posicion `APP_KEY`. Si no está hay que crearla con el comando `php artisan key:generate`
 6. Revisar la información de conexión a la db. Son las posicones `DB_ `.
 7. Ejecutar `php artisan serve` para iniciar el servidor web.
+8. Correr las migraciones: `php artisan migrate`.
+9. Correr el seeder: `php artisan db:seed`.
 
 
 ## Pasos para agregar tags a un producto.
