@@ -5,9 +5,9 @@
 4. Revisar que exista archivo `.env`. Si no está copiar el archivo `.env-example` y eliminar `-example`
 5. Chequear que tenga valores la posicion `APP_KEY`. Si no está hay que crearla con el comando `php artisan key:generate`
 6. Revisar la información de conexión a la db. Son las posicones `DB_ `.
-7. Ejecutar `php artisan serve` para iniciar el servidor web.
 8. Correr las migraciones: `php artisan migrate`.
 9. Correr el seeder: `php artisan db:seed`.
+7. Ejecutar `php artisan serve` para iniciar el servidor web.
 
 
 ## Pasos para agregar tags a un producto.
