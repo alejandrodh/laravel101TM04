@@ -7,6 +7,18 @@
 6. Revisar la información de conexión a la db. Son las posicones `DB_ `.
 7. Ejecutar `php artisan serve` para iniciar el servidor web.
 
+
+## Pasos para agregar tags a un producto.
+La relacion es de `muchos a muchos` por lo tanto vamos a necesitar 2 tablas más: `tags` y la tabla pivot que relaciones `product_tag`. El nombre de la tabla pivot debe escribirse con los nombres de las tablas en `singular` y en orden alfabético.
+1. Crear la tabla `tags` usando migraciones.
+2. Crear la tabla pivot `product_tag` respetando el std Laravel.
+3. Crear el modelo `Tag`.
+4. Definir la relación `muchos a muchos` en los modelos `Tag` y `Product`.
+5. Crear las `factory` para tags.
+6. Refactorizar el seeder para que actulice la tabla pivot con datos de las tablas `products` y `tags`.
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
